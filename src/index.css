@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+@layer{
+
+    body{
+        @apply font-[Poppins]
+    }
+    li{
+        @apply p-4 text-xl
+    }
+    
+    h2{
+       @apply text-3xl font-bold 
+    }
+    h3{
+       @apply text-xl font-bold 
+    }
+    .icon{
+        @apply text-2xl cursor-pointer 
+    }
+    .textc{
+        @apply font-[Rubik]
+    }
+    .obj{
+        @apply font-[Roboto]
+    }
+    .tex{
+        @apply font-[Mukta]
+    }
+    .ben{
+        @apply font-[Poppins]
+    }
+    
+}
+
