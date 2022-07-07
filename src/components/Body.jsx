@@ -7,9 +7,7 @@ const Body = () => {
             <div className="w-full h-screen relative">
                 <img id="" className="w-full h-full object-cover"
                     src={Video}
-                    autoplay
-                    loop
-                    muted />
+                    />
 
             </div>
             <div className="w-full h-full absolute top-0 bg-black/50"></div>
