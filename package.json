@@ -2,10 +2,9 @@
   "name": "reacts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bshekhar123.github.io/lists",
+   
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
+    
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -46,7 +45,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
-    "gh-pages": "^4.0.0",
+    
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.23"
   }
