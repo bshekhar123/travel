@@ -5,8 +5,9 @@ const Body = () => {
     const [inp, setInp] = useState('')
     const submitForm = (e)=>{
         e.preventDefault()
+        
         window.location.href = `https://en.wikipedia.org/wiki/${inp}`;
-
+        setInp(" ")
     }
     const changeInp =(e)=> {
         setInp(e.target.value)
@@ -30,9 +31,7 @@ const Body = () => {
                     <div >
                         <input value={inp} onChange={changeInp} type="text" className="text-2xl bg-transparent w-[300px] sm:w-[400px] focus:outline-none" placeholder="Search Places" />
                     </div>
-                    <div>
-                        <button className=""><AiOutlineSearch size={25} className=" bg-gradient-to-r from-[#ec6f15] to-[#f9875a] text-white rounded" /></button>
-                    </div>
+                    
                 </form>
             </div>
         </div>
